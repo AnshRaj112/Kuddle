@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://uploads-ssl.webflow.com/65e7f60e170eb39ed51335aa/6604077a1172c9d810432403_FREE%2021%2B%20Solid%20Wallpapers%20in%20PSD%20_%20Vector%20EPS.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 255,255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+.submit:hover {
+  background-color: rgb(255, 255,255, 0.5);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.register {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label, 
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.year{
+    color: #fff;
+    width: 100%;
+    top: 20px;
+    font-size: 1.2rem;
+}
+
+.year select{
+    width: 300px;
+}
+
+.branch select{
+    width: 300px;
+}
+
+.branch{
+    color: #fff;
+    width: fit-content;
+    top: 30px;
+    font-size: 1.2rem;
+}
+
+section {
+    position: relative;
+    max-width: 440px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+/* responsive */
+
+@media (max-width:320px) {
+    section{
+        /* margin-left: 40px; */
+        max-width: 320px;
+    }
+
+    .year select{
+        width: 50vw;
+    }
+
+    .branch select{
+       width: 50vw;
+    }
+}
+
+@media (max-width:398px) {
+    section{
+        max-width: 350px;
+    }
+
+    .year select{
+        width: 250px;
+    }
+
+    .branch select{
+       width: 250px;
+    }
+}
+
+@media (max-width:350px) {
+    section{
+        max-width: 320px;
+    }
+
+    .year select{
+        width: 220px;
+    }
+
+    .branch select{
+       width: 220px;
+    }
+}

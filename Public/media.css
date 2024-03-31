@@ -1,0 +1,586 @@
+@media (max-width:1397px) {
+    .img{
+        height: 8vh;
+        width: 15vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+@media (max-width:1355px) {
+    .img{
+        height: 9vh;
+        width: 16vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 21.5rem;
+        width: 26rem;
+    }
+    .img2{
+        height: 21.5rem;
+        width: 26rem;
+    }
+    .img3{
+        height: 21.5rem;
+        width: 26rem;
+    }
+
+    .hero2{
+        font-size: 3.5rem;
+    }
+
+    .text2 p{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width:1333px) {
+    .img{
+        height: 9vh;
+        width: 18vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 21.5rem;
+        width: 27rem;
+    }
+    .img2{
+        height: 21.5rem;
+        width: 27rem;
+    }
+    .img3{
+        height: 21.5rem;
+        width: 27rem;
+    }
+
+    .hero2{
+        font-size: 3.5rem;
+    }
+
+    .text2 h3{
+        font-size: 2.9rem;
+    }
+}
+
+@media (max-width:1333px) {
+    .img{
+        height: 9vh;
+        width: 18vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img2{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img3{
+        height: 21.5rem;
+        width: 28rem;
+    }
+
+    .hero2{
+        font-size: 3.5rem;
+    }
+
+    .text2 h3{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width:1247px) {
+    
+    .img{
+        height: 9vh;
+        width: 18vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img2{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img3{
+        height: 21.5rem;
+        width: 28rem;
+    }
+
+    .hero2{
+        font-size: 3rem;
+    }
+
+    .text2 h3{
+        font-size: 2.7rem;
+    }
+    .text2 p{
+        font-size: 1.05rem;
+    }
+
+    .box1 p{
+        font-size: 1.15rem;
+        color: gray;
+    }
+    
+    .getstarted{
+        font-size: 1.25rem;
+    }
+    .getstarted2{
+        font-size: 1.25rem;
+    }
+    
+}
+
+@media (max-width:1149px) {
+    
+    .img{
+        height: 10vh;
+        width: 18vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 19rem;
+        width: 35rem;
+    }
+    .img2{
+        height: 19rem;
+        width: 35rem;
+    }
+    .img3{
+        height: 19rem;
+        width: 35rem;
+    }
+
+    .find h3{
+        font-size: 3rem;
+        padding-top: 20vh;
+    }
+
+    .txt1{
+        font-size: 1.15rem;
+        padding-top: 3vh;
+    }
+
+    .txt2{
+        font-size: 1.15rem;
+        padding-bottom: 3vh;
+    }
+
+    .hero2{
+        font-size: 3rem;
+    }
+
+    .text2 h3{
+        font-size: 2.5rem;
+    }
+    .text2 p{
+        font-size: 1rem;
+    }
+
+    .box1 p{
+        font-size: 1.05rem;
+        color: gray;
+    }
+
+    .box2{
+        font-size: 1.25rem;
+    }
+    
+    .getstarted{
+        font-size: 1.15rem;
+    }
+    .getstarted2{
+        font-size: 1.15rem;
+    }
+    
+}
+
+@media (max-width:1247px) {
+    
+    .img{
+        height: 9vh;
+        width: 18vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img2{
+        height: 21.5rem;
+        width: 28rem;
+    }
+    .img3{
+        height: 21.5rem;
+        width: 28rem;
+    }
+
+    .hero2{
+        font-size: 3rem;
+    }
+
+    .text2 h3{
+        font-size: 2.7rem;
+    }
+    .text2 p{
+        font-size: 1.05rem;
+    }
+
+    .box1 p{
+        font-size: 1.15rem;
+        color: gray;
+    }
+    
+    .getstarted{
+        font-size: 1.25rem;
+    }
+    .getstarted2{
+        font-size: 1.25rem;
+    }
+    
+}
+
+@media (max-width:1149px) {
+    
+    .img{
+        height: 8.25vh;
+        width: 16vw;
+        background-image: url(src/kuddle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img1{
+        height: 18rem;
+        width: 35rem;
+    }
+    .img2{
+        height: 18rem;
+        width: 35rem;
+    }
+    .img3{
+        height: 18rem;
+        width: 35rem;
+    }
+
+    .find h3{
+        font-size: 3rem;
+        padding-top: 20vh;
+    }
+
+    .txt1{
+        font-size: 1.15rem;
+        padding-top: 3vh;
+    }
+
+    .txt2{
+        font-size: 1.15rem;
+        padding-bottom: 3vh;
+    }
+
+    .hero2{
+        font-size: 3rem;
+    }
+
+    .text2 h3{
+        font-size: 2.5rem;
+    }
+    .text2 p{
+        font-size: 1rem;
+    }
+
+    .box1 p{
+        font-size: 1.05rem;
+        color: gray;
+    }
+
+    .box2{
+        font-size: 1.25rem;
+    }
+    
+    .getstarted{
+        font-size: 1.15rem;
+    }
+    .getstarted2{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width:1057px) {
+    .find h3{
+        font-size: 2.75rem;
+    }
+
+    .getstarted{
+        width: 28vw;
+    }
+
+    .getstarted2{
+        width: 28vw;
+    }
+
+    .img1{
+        height: 17rem;
+        width: 50rem;
+    }
+
+    .img2{
+        height: 17rem;
+        width: 50rem;
+    }
+
+    .img3{
+        height: 17rem;
+        width: 50rem;
+    }
+
+    .text2 h3{
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
+    .text2 p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .box1{
+        height: 34vh;
+        width: 55%;
+        padding-top: 7vh;
+        padding-left: 5%;
+    }
+
+    .imgbox{
+        height: 34vh;
+    }
+}
+
+@media (max-width:1037px) {
+    .box1{
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width:1002px) {
+    .lists{
+        font-size: 1.25rem;
+    }
+    .find h3{
+        font-size: 2.5rem;
+    }
+
+    .find p{
+        font-size: 1.1rem;
+    }
+
+    .img1{
+        width: 45rem;
+    }
+    .img2{
+        width: 45rem;
+    }
+    .img3{
+        width: 45rem;
+    }
+
+    .hero2{
+        font-size: 2.8rem;
+    }
+
+    .text2{
+        width: 32vw;
+        padding-left: 3vw;
+    }
+}
+
+@media (max-width:987px) {
+    .logof p{
+        font-size: 0.8rem;
+    }
+    .joinnews p{
+        font-size: 1.25rem;
+    }
+    .socialm p{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:906px) {
+
+    .img{
+        width: 18vw;
+    }
+
+    .getstarted{
+        width: 30vw;
+    }
+
+    .getstarted2{
+        width: 30vw;
+    }
+
+    .hero2{
+        font-size: 2.5rem;
+    }
+
+    .text2{
+        padding-left: 2vw;
+        width: 33vw;
+        /* padding-right: ; */
+    }
+
+    .text2 h3{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .text2 p{
+        font-size: 1rem;
+    }
+
+    .imagehero3{
+        width: 40vw;
+        padding-left: 5vw;
+        padding-right: 10vw;
+    }
+
+    .box1{
+        height: 37vh;
+        padding-top: 4vh;
+        font-size: 1.3rem;
+    }
+
+    .box2{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:870px) {
+    .img{
+        height: 8vh;
+        padding-left: 30%;
+        width: 16vw;
+    }
+    .lists{
+        padding-left: 8%;
+    }
+    .hero{
+        display: grid;
+    }
+    .find{
+        height: 60vh;
+        width: 100%;
+    }
+    .images{
+        width: 100%;
+    }
+
+    .img1{
+        height: 70vh;
+        width: 18rem;
+    }
+    .img2{
+        height: 70vh;
+        width: 18rem;
+    }
+    .img3{
+        height: 70vh;
+        width: 18rem;
+    }
+
+    .hero3{
+        display: grid;
+    }
+
+    .text2{
+        height: 70vh;
+        width: 80%;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* padding: 10vh 0vw 10vh 0vw;  */
+        /* padding-left: 5vw;
+        padding-right: 5vw; */
+        /* background-color: green; */
+    }
+
+    .text2 h3{
+        font-size: 2rem;
+    }
+
+    .text2 p{
+        font-size: 1rem;
+    }
+
+    .imagehero3{
+        margin-top: -30vh;
+        height: 70vh;
+        width: 50%;
+        margin-left: 15%;
+        margin-right: 25%;
+    }
+
+    .imgbox{
+        height: 37vh;
+    }
+
+    .hero4{
+        height: 140vh;
+    }
+
+    .box1{
+        margin-top: 20vh;
+    }
+
+    footer{
+        display: grid;
+    }
+
+    .foot2{
+        height: 20svh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around; */
+    }
+
+    .joinnews{
+        width: 50%;
+        /* padding-left: 20%; */
+        text-align: center;
+    }
+
+    .socialm{
+        width: 50%;
+        text-align: center;
+    }
+
+    .logof{
+        width: 90%;
+    }
+
+    .logof p{
+        margin-left: 3rem;
+    }
+
+    .box1 p{
+        font-size: 0.9rem;
+    }
+}

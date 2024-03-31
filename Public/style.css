@@ -1,0 +1,431 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+nav{
+    padding-top: 0.5rem;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    font-weight: 600;
+    background-color: rgb(23, 23, 23);
+    /* background-color: pink; */
+}
+
+.logo{
+    /* height: 3rem; */
+    width: 20%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.img{
+    height: 8vh;
+    width: 13vw;
+    background-image: url(src/kuddle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lists{
+    padding-left: 10%;
+    /* background-color: purple; */
+    /* height: 3rem; */
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.lists a{
+    text-decoration: none;
+    color: white;
+}
+
+/* herosec */
+
+.hero{
+    display: flex;
+}
+
+.find{
+    height: 90vh;
+    width: 50%;
+    /* background-color:blue; */
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+}
+
+.find h3{
+    font-size: 3.35rem;
+    padding-top: 20vh;
+}
+
+.txt1{
+    font-size: 1.25rem;
+    padding-top: 3vh;
+}
+
+.txt2{
+    font-size: 1.25rem;
+    padding-bottom: 3vh;
+}
+
+.images{
+    height: 90vh;
+    width: 50%;
+    /* background-color:black; */
+    background-color: rgb(23, 23, 23);
+}
+
+.getstarted{
+    height: 9vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    /* padding-top: 1vh;
+    padding-bottom: 1vh; */
+    width: 26vw;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.35rem;
+    background-color: purple;
+    text-align: start;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px black;
+}
+
+.fa-arrow-right{
+    padding-left: 10vw;
+}
+
+/* imgdiv */
+
+.images{
+    display: flex;
+}
+
+.img1{
+    position: relative;
+    left: 18%;
+    margin-top: 12vh;
+    height: 22.5rem;
+    /* width: 25vw; */
+    width: 24rem;
+    /* background-color: aqua; */
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/66096c1fd2eba962dd014404_Cha%20Hae%20In%20Wallpaper%20-%20KoLPaPer%20-%20Awesome%20Free%20HD%20Wallpapers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(-5deg);
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.img2{
+    position: relative;
+    margin-top: 32vh;
+    height: 22.5rem;
+    width: 24rem;
+    /* background-color: pink; */
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/66096ad2342643f874b4aad4_photo_2024-03-31_19-22-54.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate();
+    border-radius: 1rem;
+    z-index: 2;
+}
+
+.img3{
+    position: relative;
+    right: 18%;
+    margin-top: 12vh;
+    height: 22.5rem;
+    width: 24rem;
+    /* background-color: green; */
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/66096c1f342643f874b5d04b_8e30b2245b5770fd93af0783242ef9e9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(5deg);
+    border-radius: 1rem;
+    z-index: 0;
+}
+
+/* hero2 */
+
+.hero2{
+    height: 90vh;
+    width: 100%;
+    /* background-color: rgb(208, 130, 209); */
+    background-color: rgb(23, 23, 23);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 4rem;
+    text-align: center;
+}
+
+.hero2 p{
+    position: relative;
+    top: 22vh;
+}
+
+.hero2 span{
+    color: purple;
+}
+
+/* hero3 */
+
+.hero3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1rem; */
+}
+
+.text2{
+    height: 60vh;
+    width: 30vw;
+    /* padding: 10vh 0vw 10vh 0vw;  */
+    padding-left: 5vw;
+    padding-right: 5vw;
+    /* background-color: green; */
+}
+
+.text2 h3{
+    font-size: 3rem;
+    margin-top: -5vh;
+    margin-bottom: 2rem;
+}
+
+.text2 p{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.text2 button{
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: purple;
+    box-shadow: 4px 6px 5px black;
+}
+
+.imagehero3{
+    height: 70vh;
+    width: 30vw;
+    margin-top: -10vh;
+    /* padding: 10vh 0vw 10vh 0vw;  */
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* background-color: pink; */
+    background-image: url(src/online_dating_cartoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* hero4 */
+
+.hero4{
+    height: 120vh;
+    width: 100%;
+    padding-top: 20vh;
+    background-color: rgb(23, 23, 23);
+    border-bottom: 1px solid white;
+    /* background-color: rgb(47, 19, 47); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.box1{
+    display: flex;
+    position: relative;
+    left: 20%;
+    top: 5vh;
+    height: 32vh;
+    width: 53%;
+    background-color: rgb(23, 23, 23);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding-top: 9vh;
+    padding-left: 7%;
+    font-size: 1.5rem;
+}
+
+.left{
+    width: 50%;
+}
+
+.left span{
+    color: purple;;
+}
+
+.right{
+    width: 50%;
+}
+
+.imgbox{
+    margin-left: 1rem;
+    height: 32vh;
+    width: 20vw;
+    /* background-color: aqua; */
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/66096c1f342643f874b5d04b_8e30b2245b5770fd93af0783242ef9e9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+
+
+.mar{
+    margin-top: 1rem;
+}
+
+.box1 p{
+    font-size: 1.25rem;
+    color: gray;
+}
+
+.box2{
+    position: relative;
+    left: 15%;
+    bottom: -5vh;
+    height: 43vh;
+    width: 70%;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 9vh;
+}
+
+.getstarted2{
+    height: 9vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    /* padding-top: 1vh;
+    padding-bottom: 1vh; */
+    margin-top: 6vh;
+    width: 26vw;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.35rem;
+    background-color: purple;
+    text-align: start;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px white;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkorchid; */
+    /* background-color: black; */
+    background-color: rgb(23, 23, 23);
+}
+
+.foot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.logof{
+    width: 47%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0rem 2rem 0rem;
+    padding-left: 2rem;
+
+    /* border-right: 1px solid white; */
+    font-size: 1rem;
+}
+
+.logof p{
+    margin-left: 1rem;
+}
+
+.social{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: rgb(23, 23, 23);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.joinnews p{
+    font-size: 1.5rem;
+}
+
+.joinnews input{
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    color: black;
+}
+
+.submit{
+    height: 1.75rem;
+    width: 4rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.socialm p{
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+}
+
+.insta{
+    margin-right: 0.5rem;
+}
+
+.face{
+    margin-right: 0.5rem;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    height: 5vh;
+}
