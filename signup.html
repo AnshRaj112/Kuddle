@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuddle Sign Up</title>
+    <link rel="stylesheet" href="./createaccount.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <section>
+        <div class="register">
+            <h1>New User</h1>
+            <p class="already_account">Already have an account? <a href="./login.html">Login</a></p>
+        </div>
+            <form action="/landing" method="POST">
+                <div class="inputbox">
+                    <input type="name" name= "name" required>
+                    <label for="First Name">First Name</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="name" name= "name" required>
+                    <label for="Last Name">Last Name</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="phone" name= "phone" required>
+                    <label for="Phone">Phone</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name= "email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="year">
+                <label for="year">Year</label><br>
+                <select type="number" name="Year" placeholder="Year"><br>
+                    <option value="" hidden>Year</option>
+                    <option value="1">Year 1</option>
+                    <option value="2">Year 2</option>
+                    <option value="3">Year 3</option>
+                    <option value="4">Year 4</option>
+                </select><br>
+            </div>
+                <div class="branch">
+                <label for="branch">Branch</label><br>
+                <select type="Branch" name="Branch" placeholder="Branch"><br>
+                    <option value="" hidden>Branch</option>
+                    <option value="1">Civil Engineering</option>
+                    <option value="2">Mechanical Engineering</option>
+                    <option value="3">Mechanical Engineering (Automobile)</option>
+                    <option value="4">Electrical Engineering</option>
+                    <option value="5">Electronics & Tele-Communication Engineering</option>
+                    <option value="6">Computer Science Engineering</option>
+                    <option value="7">Information Technology</option>
+                    <option value="8">Electronics & Electrical Engineering</option>
+                    <option value="9">Electronics and Instrumentation</option>
+                    <option value="10">Aerospace Engineering</option>
+                    <option value="11">Mechatronics Engineering</option>
+                    <option value="12">Production Engineering</option>
+                    <option value="13">Electronics and Computer Science Engineering</option>
+                    <option value="14">Electronics and Computer Science Engineering</option>
+                    <option value="15">Communication Engineering</option>
+                    <option value="16">Medical Electronics Engineering</option>
+                    <option value="17">Computer Science & Communication Engineering</option>
+                    <option value="18">Computer Science & Systems Engineering</option>
+                    <option value="19">Chemical Technology</option>
+                </select><br>
+            </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name= "password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name= "password" required>
+                    <label for="">Confirm Password</label>
+                </div>
+                <input class="submit" type="submit" value="Sign Up"><br>
+            </form>
+        </div>
+    </section>
+    <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>

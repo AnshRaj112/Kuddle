@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forgetpass.css">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <section>
+        <div class="register">
+            <h1>Forgot Password? Reset Password</h1>
+            <p class="New_User">New User? <a href="./signup.html">Create an account</a></p>
+        </div>
+        <form action="/login" method="POST">
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" name= "email" required>
+                <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="Code" name= "Vericitaion_Code" required>
+                <label for="">Verification Code</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" name= "password" required>
+                <label for="">New Password</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" name= "password" required>
+                <label for="">Confirm Password</label>
+            </div>
+            <input class="submit" type="submit" value="Change Password"><br>
+        </form>
+    </section>
+</body>
+</html>
