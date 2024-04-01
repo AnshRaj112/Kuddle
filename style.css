@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: linear-gradient(to right, #3a0d2c,#2E0A23,#24081b);
+    background: linear-gradient(to bottom, #3a0d2c,#2E0A23,#24081b);
+}
+
 /* navbar */
 
 nav{
@@ -15,7 +20,7 @@ nav{
     height: 10vh;
     width: 100%;
     font-weight: 600;
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     /* background-color: pink; */
 }
 
@@ -64,7 +69,7 @@ nav{
     height: 90vh;
     width: 50%;
     /* background-color:blue; */
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     text-align: center;
     /* display: flex;
     align-items: center; */
@@ -89,7 +94,7 @@ nav{
     height: 90vh;
     width: 50%;
     /* background-color:black; */
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
 }
 
 .getstarted{
@@ -166,10 +171,10 @@ nav{
 /* hero2 */
 
 .hero2{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     /* background-color: rgb(208, 130, 209); */
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -183,7 +188,7 @@ nav{
 }
 
 .hero2 span{
-    color: purple;
+    color: rgb(231, 16, 231);
 }
 
 /* hero3 */
@@ -191,7 +196,7 @@ nav{
 .hero3{
     height: 80vh;
     width: 100%;
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     /* background-color: blue; */
     display: flex;
     align-items: center;
@@ -249,9 +254,8 @@ nav{
     height: 120vh;
     width: 100%;
     padding-top: 20vh;
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     border-bottom: 1px solid white;
-    /* background-color: rgb(47, 19, 47); */
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -265,9 +269,9 @@ nav{
     height: 32vh;
     width: 53%;
     background-color: rgb(23, 23, 23);
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     padding-top: 9vh;
@@ -317,8 +321,9 @@ nav{
     bottom: -5vh;
     height: 43vh;
     width: 70%;
-    background-color: black;
-    border: 1px solid white;
+    /* background-color: black; */
+    background-color: rgb(23, 23, 23);
+    border: 1px solid black;
     border-radius: 2rem;
     text-align: center;
     font-size: 1.5rem;
@@ -349,7 +354,8 @@ footer{
     align-items: center;
     /* background-color: darkorchid; */
     /* background-color: black; */
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
+    background: linear-gradient(to left, #7b205e,#701657,#5b1444);
 }
 
 .foot2{
@@ -382,7 +388,8 @@ footer{
     width: 2.5rem;
     border: none;
     border-radius: 2.5rem;
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
+    background-color: #460c33;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -426,6 +433,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(23, 23, 23);
+    /* background-color: rgb(23, 23, 23); */
     height: 5vh;
 }
