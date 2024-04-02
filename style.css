@@ -11,7 +11,6 @@ body{
     background: linear-gradient(to right, #3a0d2c,#2E0A23,#24081b);
     background: linear-gradient(to bottom, #3a0d2c,#2E0A23,#24081b);
 }
-
 /* navbar */
 
 nav{
@@ -20,7 +19,7 @@ nav{
     height: 10vh;
     width: 100%;
     font-weight: 600;
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     /* background-color: pink; */
 }
 
@@ -37,7 +36,7 @@ nav{
 .img{
     height: 8vh;
     width: 13vw;
-    background-image: url(src/kuddle.png);
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/660b8ac05d0577df14015364_kuddle.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,7 +68,7 @@ nav{
     height: 90vh;
     width: 50%;
     /* background-color:blue; */
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     text-align: center;
     /* display: flex;
     align-items: center; */
@@ -94,7 +93,7 @@ nav{
     height: 90vh;
     width: 50%;
     /* background-color:black; */
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
 }
 
 .getstarted{
@@ -174,7 +173,7 @@ nav{
     height: 100vh;
     width: 100%;
     /* background-color: rgb(208, 130, 209); */
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -196,7 +195,7 @@ nav{
 .hero3{
     height: 80vh;
     width: 100%;
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     /* background-color: blue; */
     display: flex;
     align-items: center;
@@ -243,7 +242,7 @@ nav{
     padding-left: 10vw;
     padding-right: 10vw;
     /* background-color: pink; */
-    background-image: url(src/online_dating_cartoon.png);
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/660b8ac06cc1437adb417dde_online_dating_cartoon.pngg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -254,8 +253,9 @@ nav{
     height: 120vh;
     width: 100%;
     padding-top: 20vh;
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     border-bottom: 1px solid white;
+    /* background-color: rgb(47, 19, 47); */
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -321,7 +321,6 @@ nav{
     bottom: -5vh;
     height: 43vh;
     width: 70%;
-    /* background-color: black; */
     background-color: rgb(23, 23, 23);
     border: 1px solid black;
     border-radius: 2rem;
@@ -354,7 +353,6 @@ footer{
     align-items: center;
     /* background-color: darkorchid; */
     /* background-color: black; */
-    /* background-color: rgb(23, 23, 23); */
     background: linear-gradient(to left, #7b205e,#701657,#5b1444);
 }
 
@@ -388,8 +386,7 @@ footer{
     width: 2.5rem;
     border: none;
     border-radius: 2.5rem;
-    /* background-color: rgb(23, 23, 23); */
-    background-color: #460c33;
+    background-color: #460c33);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -433,6 +430,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(23, 23, 23); */
+    /*background-color: rgb(23, 23, 23);*/
     height: 5vh;
 }
