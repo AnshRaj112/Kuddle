@@ -106,7 +106,7 @@ form{
     border-radius: 0.5rem;
 }
 
-.formbox button{
+.formbox .submit1{
     width: 18rem;
     height: 3rem;
     margin-top: 1rem;

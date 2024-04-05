@@ -32,16 +32,17 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias sint doloremque explicabo error recusandae impedit et corporis illo, sit omnis voluptatum! Atque neque, dignissimos perferendis debitis nobis tempora quaerat?</p>
         </div>
         <div class="form">
-            <form>
+            <form action="/home" method="POST">
                 <div class="formbox">
                     <h1>Form Submission</h1>
                     <p>Your Name :</p>
-                    <input type="text" required>
+                    <input type="text" name="Name" required>
                     <p>Your email address :</p>
-                    <input type="email" required>
+                    <input type="email" name="mail" required>
                     <p>Your Message :</p>
-                    <textarea name="" id="" cols="40" rows="5" required></textarea>
-                    <button>Submit</button>
+                    <input type="text" name="Message" required>
+                    
+                    <input class="submit1" type="submit" value="Submit">
                 </div>
             </form>
         </div>
@@ -56,8 +57,8 @@
         <div class="foot2">
             <div class="joinnews">
                 <p>Join the Newsletter</p>
-                <input type="email" placeholder="Your email address">
-                <button class="submit">Submit</button>
+                <input type="email" required placeholder="Your email address">
+                <input class="submit" type="submit" value="Submit">
             </div>
 
             <div class="socialm">

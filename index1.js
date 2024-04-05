@@ -8,6 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 app.use(express.static('public'))
+app.use(express.static('main'))
 
 app.use(express.urlencoded({ extended: true }));
 //app.use(express.json())
@@ -30,6 +31,15 @@ app.post("/landing", (req, res) => {
 app.post("/login", (req, res) => {
   console.log(req.body);
 });
+
+app.get("/contactus", (req, res) => {
+  res.sendFile(__dirname + "/Public/contactus.html");
+});
+
+app.post("/home", (req, res) => {
+  console.log(req.body);
+});
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
