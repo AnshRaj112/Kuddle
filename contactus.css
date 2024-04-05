@@ -1,0 +1,234 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #3a0d2c,#2E0A23,#24081b);
+    background: linear-gradient(to bottom, #3a0d2c,#2E0A23,#24081b);
+}
+/* navbar */
+
+nav{
+    padding-top: 0.5rem;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    /*background-color: rgb(23, 23, 23);*/
+    /* background-color: pink; */
+}
+
+.logo{
+    /* height: 3rem; */
+    width: 20%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.img{
+    height: 8vh;
+    width: 13vw;
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/660b8ac05d0577df14015364_kuddle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lists{
+    padding-left: 10%;
+    /* background-color: purple; */
+    /* height: 3rem; */
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.lists a{
+    text-decoration: none;
+    color: white;
+}
+
+/* hero */
+main{
+    display: flex;
+    height: 72vh;
+    color: white;
+}
+
+/* left */
+.left{
+    width: 100%;
+    /* margin-top: 3rem; */
+    margin: 1.5rem;
+    margin-left: 5rem;
+    /* background-color: pink; */
+}
+
+.left h1{
+    font-size: 2.25rem;
+}
+
+.left p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* form */
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.formbox p{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.formbox input{
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 2rem;
+    width: 17rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+}
+
+.formbox button{
+    width: 18rem;
+    height: 3rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    font-size: 1.25rem;
+    background-color: purple;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+
+.form{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.formbox textarea{
+    padding: 0.5rem;
+    resize: none;
+}
+
+.formbox{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    width: 45%;
+    background-color: #cbcece;
+    height: 60vh;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.formbox h1{
+    font-size: 2rem;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkorchid; */
+    /* background-color: black; */
+    color: white;
+    background: linear-gradient(to left, #7b205e,#701657,#5b1444);
+}
+
+.foot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.logof{
+    width: 47%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0rem 2rem 0rem;
+    padding-left: 2rem;
+
+    /* border-right: 1px solid white; */
+    font-size: 1rem;
+}
+
+.logof p{
+    margin-left: 1rem;
+}
+
+.social{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: #460c33;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.joinnews p{
+    font-size: 1.5rem;
+}
+
+.joinnews input{
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    color: black;
+}
+
+.submit{
+    height: 1.75rem;
+    width: 4rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.socialm p{
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+}
+
+.insta{
+    margin-right: 0.5rem;
+}
+
+.face{
+    margin-right: 0.5rem;
+}
