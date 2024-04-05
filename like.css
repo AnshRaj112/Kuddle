@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #3a0d2c,#2E0A23,#24081b);
+    background: linear-gradient(to bottom, #3a0d2c,#2E0A23,#24081b);
+}
+
+nav{
+    height: 4.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.logo{
+    height: 3rem;
+    width: 10rem;
+    background-image: url(src/kuddle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* heorsection */
+section{
+    width: 100%;
+    display: flex;
+}
+
+
+
+.left{
+    height: 90vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+/* right */
+
+.right{
+    height: 90vh;
+    width: 100%;
+    /* background-color: green; */
+}
+
+
+.profileimg{
+    height: 70vh;
+    width: 52%;
+    border-radius: 1rem;
+    border: none;
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.imgtxt{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+
+button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 4.5rem;
+    width: 15rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(205, 62, 62);
+}
+
+.like{
+    background-color: pink;
+}
+
+.dislike{
+    background-color: wheat;
+}
+
+.choice{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pibox{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* @media (max-width:426px) {
+    section{
+        display: grid;
+    }
+} */
+
+/* left */
+
+.txtbox{
+    margin: 20px;
+    margin-left: 40px;
+    /* background-color: peru; */
+    /* width: 100%; */
+    color: white;
+    font-size: 1.1rem;
+}
+
+.txtbox h2{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.moreimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.ibox{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    background-color: cyan;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    cursor: pointer;
+}
+
+.img1{
+    background-image: url(https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url(https://images.unsplash.com/photo-1512310604669-443f26c35f52?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
