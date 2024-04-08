@@ -1,54 +1,79 @@
 # Kuddle
-**Kuddle**
 
-Welcome to Kuddle, a dating website exclusively for the students of KIIT!
+Welcome to Kuddle - your go-to platform for connecting with fellow students at KIIT!
 
-**Introduction**
+## Version: v0.3.0
 
-Kuddle aims to provide a platform for students of KIIT to connect, interact, and potentially find love or friendship within their campus community. Our website is currently in its early stages of development, with a focus on creating a user-friendly experience for our users.
+In this version, we've added the following features:
+- Signup page
+- Login page
+- Forgot password page
+- Like-dislike page
+- Contact Us page
+- About Us page
 
-**Features**
+## Features
 
-_Frontend:_
+### User Registration
 
-Developed using HTML and CSS.
-Transition to React planned for future development.
-Responsive landing page with a navigation bar.
-Signup and login functionality for users.
+- KIIT students can register using their KIIT email through Google authentication or manually input their KIIT email.
+- Upon registration, users are directed to their profiles to provide additional information, including contact number, year of study, interests, age, description, profile picture, and additional photos.
 
-_Backend:_
+### Profile Management
 
-Built with Express.js.
-Currently supports backend functionality for Login, Signup, and Forgot Password pages.
-Basic testing has been completed, ensuring functionality.
-Planned Development
+- Users can update their profiles, including contact number, current year, description, interests, and additional photos, after the initial registration.
+- Profile updates are limited after the initial registration, allowing changes only to profile photo, contact number, current year, description, interests, and additional photos.
 
-_Frontend:_
+### Login
 
-Continued development of landing page to incorporate new features and ideas.
-Transition to React for improved scalability and performance.
+- Users can log in using their email and password.
+- Upon successful login, users are directed to the like-dislike page.
 
-_Backend:_
+### Forgot Password
 
-Database integration (SQL and NoSQL options under consideration).
-Enhancing security measures for user authentication and data protection.
+- Users can reset their passwords by providing their email and confirming their identity through OTP sent to their email.
 
-**Development Team**
+### Like-Dislike Page
 
-_Ansh Raj:_
+- Users are shown profiles of potential matches based on similar interests and age range.
+- Users can swipe right to like a profile or left to dislike a profile.
+- Liked profiles are notified, and they can decide to like the user back or dislike them.
+- Disliked profiles are archived for later reference.
 
-Responsible for coding the backend and frontend of Login, Forgot Password, and Signup pages.
+### Contact Us
 
-_Ashmit Sinha:_
+- All users will be able to contact us by giving their name, email, and message informing about any complaints, errors, or bugs occurring.
 
-Tasked with developing the landing page and ensuring responsiveness across all pages.
-Contributing
-We welcome contributions from developers interested in improving and expanding the functionality of Kuddle. If you'd like to contribute, please feel free to fork the repository and submit a pull request with your changes.
+### About Us
 
-**Feedback**
+- Learn more about the creators of Kuddle:
+  - **Ansh Raj (Team Lead):** Responsible for backend, database, and finalizing the design. Also assists with frontend development.
+  - **Ashmit Sinha:** In charge of frontend development.
 
-We value your feedback! If you have any suggestions, bug reports, or feature requests, please don't hesitate to open an issue on our GitHub repository.
+## Technologies Used
 
-**License**
+- **Frontend:** HTML and CSS (ReactJS planned for future versions).
+- **Backend:** Node.js with Express.
+- **Database:** SQL and NoSQL databases.
+- **Authentication:** Firebase and Google authentication.
 
-Kuddle is licensed under the KIIT License. Feel free to use, modify, and distribute our code for your own projects.
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/kuddle.git
+```
+
+2.  Install dependencies:
+   
+```
+cd kuddle
+npm install
+```
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
+
+
+This project is licensed under the KUDDLE License - see the LICENSE file for details.
