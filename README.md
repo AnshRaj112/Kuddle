@@ -62,7 +62,7 @@ In this version, we've added the following features:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/kuddle.git
+git clone https://github.com/AnshRaj112/kuddle.git
 ```
 
 2.  Install dependencies:
