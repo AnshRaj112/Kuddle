@@ -48,6 +48,17 @@ video::-webkit-media-controls-fullscreen-button {
     display: none;
 }
 
+video::-webkit-media-controls-panel {
+    display: none;
+}
+
+video::-webkit-media-controls{
+    display: none;
+}
+
+video::-webkit-media-controls-panel-button{
+    display: none;
+}
 
 
 
