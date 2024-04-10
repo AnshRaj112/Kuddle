@@ -7,12 +7,24 @@
   font-family: 'poppins',sans-serif;
 }
 
+.video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0.3;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(https://uploads-ssl.webflow.com/65e7f60e170eb39ed51335aa/6604077a1172c9d810432403_FREE%2021%2B%20Solid%20Wallpapers%20in%20PSD%20_%20Vector%20EPS.jpeg);
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/66164858ebb1b03d5010d160_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
