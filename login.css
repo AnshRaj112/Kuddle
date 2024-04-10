@@ -7,6 +7,31 @@
   font-family: 'poppins',sans-serif;
 }
 
+/* iOS devices */
+*::-webkit-media-controls-panel {
+
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+}
+  
+*::-webkit-media-controls-play-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+}
+  
+*::-webkit-media-controls-start-playback-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+}
+
 .video{
 	position: fixed;
 	right: 0;
