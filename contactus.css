@@ -192,7 +192,7 @@ footer{
     width: 2.5rem;
     border: none;
     border-radius: 2.5rem;
-    background-color: #460c33;
+    background-color: #7b205e;
     font-size: 1.5rem;
     cursor: pointer;
     color: white;
@@ -203,7 +203,7 @@ footer{
 }
 
 .joinnews input{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
