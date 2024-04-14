@@ -175,3 +175,27 @@ button{
     background-size: cover;
     background-position: center;
 }
+
+/* hehehe */
+
+@media (max-width:1106px) {
+    section{
+        display: grid;
+    }
+
+    .left{
+        order: 2;
+    }
+
+    .right{
+        order: 1;
+    }
+}
+
+
+@media (max-width:634px) {
+    .moreimg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
