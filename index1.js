@@ -24,8 +24,9 @@ app.get("/forgotpassword", (req, res) => {
   res.sendFile(__dirname + "/Public/forgotpass.html");
 });
 
-app.post("/landing", (req, res) => {
+app.post("/like.html", (req, res) => {
   console.log(req.body);
+  res.sendFile(__dirname + "/Public/like.html");
 });
 
 app.post("/login", (req, res) => {
