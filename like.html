@@ -13,7 +13,76 @@
         <a href="./index.html">
             <div class="logo"></div>
         </a>
+        
+        <!-- profile dropdown -->
+        <div class="profile-dropdown">
+            <div class="user">
+                <div class="user_pic acc_pic"></div>
+                <div class="user_name">
+                    <p>Emma Watson</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <ul class="profile-dropdown-list disactive">
+                <li class="dropdown-list-item">
+                    <a href="profile.html">
+                        <i class="fa-solid fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+                <li class="dropdown-list-item">
+                    <a href="Pricing.html">
+                        <i class="fa-solid fa-crown"></i>
+                        Premium
+                    </a>
+                </li>
+                <li class="dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
+     <!-- sidebar -->
+     <div class="sidebar">
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="btn"></i>
+        </div>
+        <ul class="nav-lists">
+            <li class="like-pg">
+                <a href="like.html">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="like-pg-txt">Like</span>
+                </a>
+                <span class="tooltip">Like</span>
+            </li>
+            <li class="chat-pg">
+                <a href="#">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="chat-pg-txt">Message</span>
+                </a>
+                <span class="tooltip">Message</span>
+            </li>
+            <li class="profile-pg">
+                <a href="profile.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="profile-pg-txt">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li class="settings-pg">
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="settings-pg-txt">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+        </ul>
+    </div>
+
     <section>
         <div class="left">
             <div class="txtbox">
@@ -44,11 +113,12 @@
             </div>
             
             <div class="choice">
-                <button class="dislike "><i class="fa-solid fa-x"></i></button>
-                <button class="like "><i class="fa-solid fa-heart"></i></button>
+                <button type="submit" class="dislike"><i class="fa-solid fa-x"></i></button>
+                <button type="submit" class="like "><i class="fa-solid fa-heart"></i></button>
             </div>
         </div>
 
     </section>
+    <script src="profile.js"></script>
 </body>
 </html>
