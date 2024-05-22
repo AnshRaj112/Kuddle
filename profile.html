@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="icon" href="https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/660b8ac048eaa4dd228c966e_6601cb5e02f354627dfba5f6_Kuddle%20favicon.png" type="img/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Profile | Kuddle</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <div class="logo"></div>
+        </a>
+        
+        <!-- profile dropdown -->
+        <div class="profile-dropdown">
+            <div class="user">
+                <div class="user_pic acc_pic"></div>
+                <div class="user_name">
+                    <p>Emma Watson</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <ul class="profile-dropdown-list disactive">
+                <li class="dropdown-list-item">
+                    <a href="profile.html">
+                        <i class="fa-solid fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+                <li class="dropdown-list-item">
+                    <a href="Pricing.html">
+                        <i class="fa-solid fa-crown"></i>
+                        Premium
+                    </a>
+                </li>
+                <li class="dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="btn"></i>
+        </div>
+        <ul class="nav-lists">
+            <li class="like-pg">
+                <a href="like.html">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="like-pg-txt">Like</span>
+                </a>
+                <span class="tooltip">Like</span>
+            </li>
+            <li class="chat-pg">
+                <a href="#">
+                    <i class="fa-solid fa-comment"></i>
+                    <span class="chat-pg-txt">Message</span>
+                </a>
+                <span class="tooltip">Message</span>
+            </li>
+            <li class="profile-pg">
+                <a href="profile.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="profile-pg-txt">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li class="settings-pg">
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="settings-pg-txt">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="profile-back">
+            <div class="profile-left">
+                <div class="pfp"></div>
+                <div class="name box">Emma Watson</div>
+                <div class="phone box">8969XXXX48</div>
+                <div class="email box">helloworld123@kiit.ac.in</div>
+                <button type="submit" class="edit">Edit  <i class="fa-solid fa-pen-to-square"></i></button>
+            </div>
+            <div class="profile-right">
+                <div class="gender box"><pre><strong>Gender:</strong> <span id="gender-val"> Male</span></pre></div>
+                <div class="about-val box1">
+                    <strong>About:</strong> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolore quisquam, doloribus nihil laudantium corrupti? Ipsam odio dolor, voluptate official</p>
+                </div>
+                <div class="interest box1">
+                    <strong>Interests:</strong> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolore quisquam, doloribus nihil laudantium corrupti? Ipsam odio dolor, voluptate official</p>
+                </div>
+                <div class="photos">
+                    <div class="img1 imgbox"></div>
+                    <div class="img2 imgbox"></div>
+                    <div class="img3 imgbox"></div>
+                    <div class="img4 imgbox"></div>
+                    <div class="img5 imgbox"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- script -->
+    <script src="profile.js"></script>
+</body>
+</html>
