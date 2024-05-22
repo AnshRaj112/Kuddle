@@ -349,9 +349,6 @@ button{
     height: 7rem;
     width: 7rem;
     border-radius: 0.5rem;
-    background-color: cyan;
-    /* margin-left: 10px;
-    margin-right: 10px; */
     cursor: pointer;
 }
 
