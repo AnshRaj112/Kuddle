@@ -24,7 +24,7 @@ nav{
 .logo{
     height: 3rem;
     width: 10rem;
-    background-image: url(src/kuddle.png);
+    background-image: url(https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/660b8ac05d0577df14015364_kuddle.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -273,7 +273,7 @@ section{
     width: 60%;
     border-radius: 1rem;
     border: none;
-    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a376868264ab536c0f_image%20(4).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -362,31 +362,31 @@ button{
 }
 
 .img1{
-    background-image: url(https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a27cfa45cb92aa4b63_image%20(7).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img2{
-    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a33e9b01ad47b16d28_image%20(9).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img3{
-    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a3e10db786d24ca73a_image%20(5).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img4{
-    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a2a106a4ef920015e6_image%20(10).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img5{
-    background-image: url(https://images.unsplash.com/photo-1512310604669-443f26c35f52?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('https://uploads-ssl.webflow.com/66096a30ae498a9206aee6a0/664778a5582a581e809379ee_image%20(8).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
